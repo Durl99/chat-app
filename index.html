@@ -11,15 +11,21 @@
         <div class="chat-header">
             <h2>Chat</h2>
         </div>
-        <div class="chat-window" id="chat-window"></div>
+        <div class="session-list" id="session-list">
+            <!-- Aquí se mostrarán las sesiones de chat -->
+        </div>
+        <div class="chat-window" id="chat-window">
+            <!-- Aquí se mostrarán las conversaciones -->
+        </div>
         <div class="chat-input">
             <input type="text" id="username" placeholder="Introduce tu nombre" />
             <input type="text" id="message" placeholder="Escribe un mensaje" />
             <button id="sendBtn">Send</button>
+            <button id="newSessionBtn">Nueva sesión</button>
         </div>
     </div>
 
     <script src="/socket.io/socket.io.js"></script>
     <script src="script.js"></script>
 </body>
-              </html>
+</html>
